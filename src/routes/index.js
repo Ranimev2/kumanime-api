@@ -3,6 +3,7 @@ import { animeDetail, latestRelease,episodeDetail, popularSeries, searchAnime, a
 
 const router = Router();
 
+router.get('/home/')
 router.get('/latest/', latestRelease);
 router.get('/latest/page/:page', latestRelease);
 router.get('/popular', popularSeries);
