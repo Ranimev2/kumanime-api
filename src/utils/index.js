@@ -1,7 +1,7 @@
 import { default as Axios } from "axios";
 import { load } from "cheerio";
 
-export const BASE_URL = 'https://anime-indo.biz';
+export const BASE_URL = 'https://anime-indo.lol';
 
 export const requestFailed = (req,res,err)=>{
     res.status(502).send({
