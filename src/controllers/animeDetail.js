@@ -11,7 +11,7 @@ const headers = {
 export const animeDetail = async (req, res) => {
     const slug = req.params.slug;
     const url = `${BASE_URL}/anime/${slug}/`;
-    const domainUrl = "https://anime-indo.biz";
+    const domainUrl = "https://anime-indo.lol";
     
     try {
         const response = await Axios.get(url, {headers});
