@@ -10,7 +10,7 @@ const headers = {
 
 export const popularSeries = async (req, res) => {
     let data = [];
-    const domainUrl = "https://anime-indo.biz";
+    const domainUrl = "https://anime-indo.lol";
 
     try {
         const response = await Axios.get(BASE_URL, {headers});
