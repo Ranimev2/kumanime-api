@@ -12,7 +12,7 @@ export const animeMovie = async (req, res) => {
     const params = req.params.page;
     const page = typeof params == "undefined" ? "1" : `${params}`;
     const url = `${BASE_URL}/movie/page/${page}/`;
-    const domainUrl = "https://anime-indo.biz";
+    const domainUrl = "https://anime-indo.lol";
     let data = [];
 
     try {
